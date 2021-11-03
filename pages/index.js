@@ -1,7 +1,7 @@
 import React from 'react'
-// import AdminHeader from './components/layouts/admin.header'
-// import AdminFooter from './components/layouts/admin.footer'
-// import AdminSidebar from './components/layouts/admin.sidebar'
+import AdminHeader from './components/layouts/admin.header'
+import AdminFooter from './components/layouts/admin.footer'
+import AdminSidebar from './components/layouts/admin.sidebar'
 import AdminHOC from './components/layouts/admin.hoc'
 
 const Home = () => {
