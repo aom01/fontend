@@ -28,7 +28,7 @@ return (
       <p className="login-box-msg">แก้ไขข้อมูล</p>
       <form action="/" method="post">
         <div className="input-group mb-3">
-          <input type="text" className="form-control" placeholder={(data.username)} onChange={(event) => { setfirstName(event.target.value) }} />
+          <input type="text" className="form-control" placeholder="fuallname" onChange={(event) => { setfirstName(event.target.value) }} />
           <div className="input-group-append">
             <div className="input-group-text">
               <span className="fas fa-user" />
@@ -43,14 +43,14 @@ return (
             </div>
           </div>
         </div>
-        {/* <div className="input-group mb-3">
+        <div className="input-group mb-3">
           <input type="text" className="form-control" placeholder="Username" onChange={(event) => { setuserName(event.target.value) }} />
           <div className="input-group-append">
             <div className="input-group-text">
               <span className="fas fa-lock" />
             </div>
           </div>
-        </div> */}
+        </div>
         <div className="input-group mb-3">
           <input type="password" className="form-control" placeholder="Password" onChange={(event) => { setPassword(event.target.value) }} />
           <div className="input-group-append">

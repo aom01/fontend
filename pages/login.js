@@ -55,5 +55,6 @@ export default function login() {
 </body>
         </div>
     )
-}
+};
+export default login;
 

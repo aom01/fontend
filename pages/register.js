@@ -7,9 +7,9 @@ import Swal from 'sweetalert2'
 
 const Register = () => {
 
-//if (error) {
-//   return <div>An error occured: {error.message}</div>;
-//}
+if (error) {
+  return <div>An error occured: {error.message}</div>;
+}
 const [firstname, setfirstName] = useState("");
 const [lastname, setlastName] = useState("");
 const [username, setuserName] = useState("");
