@@ -21,7 +21,7 @@ const edituser = ({ users, error }) => {
 return (
     <div>
       <AdminHOC>
-      <body class="hold-transition register-page">
+      <body className="hold-transition register-page">
 <div className="register-box">
   <div className="card">
     <div className="card-body register-card-body">
@@ -61,7 +61,7 @@ return (
         </div>
       </form>
       <div className="social-auth-links text-center">
-      <button type="button" class="btn btn-success">บันทึก</button>
+      <button type="button" className="btn btn-success">บันทึก</button>
       <br />
       </div>
     </div>

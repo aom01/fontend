@@ -48,8 +48,7 @@ const Users = ({ users, error }) => {
                     <div className="card-body">
                       <table
                         id="example2"
-                        className="table table-bordered table-hover"
-                      >
+                        className="table table-bordered table-hover">
                         <thead>
                           <tr>
                             <th>id</th>
@@ -138,7 +137,7 @@ const Users = ({ users, error }) => {
         {/* Page specific script */}
         <script></script>
         <script>
-<div>
+{/* <div>
   $(function () {'{'}
   $("#example1").DataTable({'{'}
   "responsive": true, "lengthChange": false, "autoWidth": false,
@@ -154,7 +153,7 @@ const Users = ({ users, error }) => {
   "responsive": true,
   {'}'});
   {'}'});
-</div>
+</div> */}
 
 </script>
       </AdminHOC>
