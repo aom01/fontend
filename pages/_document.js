@@ -29,7 +29,7 @@ export default class MyDocument extends Document{
 
 {/* Resolve conflict in jQuery UI tooltip with Bootstrap tooltip */}
 <script>
-  $.widget.bridge('uibutton', $.ui.button)
+  $.widget.bridge('uibutton', '$.ui.button')
 </script>
 
 {/* Bootstrap 4 */}
