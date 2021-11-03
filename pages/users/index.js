@@ -137,7 +137,7 @@ const Users = ({ users, error }) => {
         <script src="dist/js/demo.js"></script>
         {/* Page specific script */}
         <script></script>
-        {/* <script>
+        <script>
 <div>
   $(function () {'{'}
   $("#example1").DataTable({'{'}
@@ -156,7 +156,7 @@ const Users = ({ users, error }) => {
   {'}'});
 </div>
 
-</script> */}
+</script>
       </AdminHOC>
     </div>
 
